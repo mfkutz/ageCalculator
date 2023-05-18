@@ -151,13 +151,13 @@ const Calculator = () => {
 
                 </div>
                 <div className='xl:pt-6 pt-2 ml-14 mr-15 max-w-[700px] xl:mt-3 mt-10  '>
-                    <div className='xl:text-[100px] text-[58px] pop-ebi xl:pl-10 pl-1 xl:-m-10 -m-8 max-w-[310px] xl:max-w-xl'>
+                    <div className='xl:text-[100px] text-[58px] pop-ebi xl:pl-10 pl-1 xl:-m-10 -m-8 max-w-[310px] xl:max-w-[720px]'>
                         {showResults && days ? <span className='text-purple'>{diffYears}</span> : <span className='text-purple'>--</span>} years
                     </div>
-                    <div className='xl:text-[100px] text-[58px] pop-ebi xl:pl-10 pl-1  xl:-m-10 -m-8 pt-1 max-w-[317px] xl:max-w-xl '>
+                    <div className='xl:text-[100px] text-[58px] pop-ebi xl:pl-10 pl-1  xl:-m-10 -m-8 pt-1 max-w-[320px] xl:max-w-[720px] '>
                         {showResults && days ? <span className='text-purple'>{diffMonths}</span> : <span className='text-purple'>--</span>} months
                     </div>
-                    <div className='xl:text-[100px] text-[58px] pop-ebi xl:pl-10 pl-1 xl:-m-10 -m-8 pt-2 max-w-[310px] xl:max-w-xl'>
+                    <div className='xl:text-[100px] text-[58px] pop-ebi xl:pl-10 pl-1 xl:-m-10 -m-8 pt-2 max-w-[310px] xl:max-w-[720px]'>
                         {showResults && days ? <span className='text-purple'>{diffDays}</span> : <span className='text-purple'>--</span>} days
                     </div>
 
