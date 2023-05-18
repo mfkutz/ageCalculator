@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: normal;
+    src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: italic;
+    src: url(./assets/fonts/Poppins-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-style: normal;
+    src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-style: italic;
+    src: url(./assets/fonts/Poppins-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-style: italic;
+    src: url(./assets/fonts/Poppins-ExtraBoldItalic.ttf);
+}
+
+
+.poppins-n {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-i {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-b {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pop-ebi {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'poppins', sans-serif;
+    }
+
+    input[type]:focus {
+
+        outline: 0 none;
+
+    }
+
+    /* Para navegadores basados en WebKit (Chrome, Safari, etc.) */
+    input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    
+    /* Para navegadores Firefox */
+    input[type="number"] {
+        -moz-appearance: textfield;
+    }
+}
