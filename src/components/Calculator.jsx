@@ -157,7 +157,7 @@ const Calculator = () => {
                     <div className='xl:text-[100px] text-[56px] pop-ebi xl:pl-10 pl-1  xl:-m-10 -m-8 pt-1 max-w-[320px] xl:max-w-[720px] '>
                         {showResults && days ? <span className='text-purple'>{diffMonths}</span> : <span className='text-purple'>--</span>} months
                     </div>
-                    <div className='xl:text-[100px] text-[56px] pop-ebi xl:pl-10 pl-1 xl:-m-10 -m-8 pt-2 max-w-[310px] xl:max-w-[720px]'>
+                    <div className='xl:text-[100px] text-[56px] pop-ebi xl:pl-10 pl-1 xl:-m-10 -m-8 pt-1 max-w-[310px] xl:max-w-[720px]'>
                         {showResults && days ? <span className='text-purple'>{diffDays}</span> : <span className='text-purple'>--</span>} days
                     </div>
 
