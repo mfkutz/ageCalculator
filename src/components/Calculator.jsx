@@ -113,7 +113,7 @@ const Calculator = () => {
                                     className=' xl:w-[160px] w-[88px] h-[54px] xl:h-[73px] rounded-[8px] border-[1px] focus:border-purple xl:pl-6 pl-4 caret-purple poppins-b xl:text-[32px] text-[20px] appearance-none'
 
                                 />
-                                {dayError && <p className="text-light-red text-[14px] poppins-i pt-2">{dayError}</p>}
+                                {dayError && <p className="text-light-red xl:text-[14px] text-[8px] poppins-i pt-2">{dayError}</p>}
 
                             </div>
                             <div className='flex-col'>
@@ -127,7 +127,7 @@ const Calculator = () => {
                                     placeholder='MM'
                                     className=' xl:w-[160px] w-[88px] h-[54px] xl:h-[73px] rounded-[8px] border-[1px] focus:border-purple xl:pl-6 pl-4 caret-purple poppins-b xl:text-[32px] text-[20px] appearance-none'
                                 />
-                                {monthError && <p className="text-light-red text-[14px] poppins-i pt-2">{monthError}</p>}
+                                {monthError && <p className="text-light-red xl:text-[14px] text-[8px] poppins-i pt-2">{monthError}</p>}
                             </div>
                             <div className='flex-col'>
                                 <div className='uppercase xl:text-[14px] text-[12px] text-gray-500 poppins-b tracking-[2px] xl:pb-2 pb-[5px]'>Year</div>
@@ -140,24 +140,24 @@ const Calculator = () => {
                                     placeholder='YYYY'
                                     className=' xl:w-[160px] w-[88px] h-[54px] xl:h-[73px] rounded-[8px] border-[1px] focus:border-purple xl:pl-6 pl-4 caret-purple poppins-b xl:text-[32px] text-[20px] appearance-none'
                                 />
-                                {yearsError && <p className="text-light-red text-[14px] poppins-i pt-2">{yearsError}</p>}
+                                {yearsError && <p className="text-light-red xl:text-[14px] text-[8px] poppins-i pt-2">{yearsError}</p>}
                             </div>
                         </div>
                         <div className='xl:mr-10 mr-6 relative border-b border-b-gray-200 xl:pt-12 pt-16 xl:min-w-[725px] min-w-[290px] '>
-                            <button className='flex items-center justify-center bg-purple xl:h-[92px] h-[65px] xl:w-[92px] w-[65px] rounded-full absolute xl:right-0 right-[120px] xl:top-[3px] top-8 hover:bg-black '><Icon /></button>
+                            <button className='flex items-center justify-center bg-purple xl:h-[92px] h-[65px] xl:w-[92px] w-[65px] rounded-full absolute xl:right-0 right-[110px] xl:top-[3px] top-8 hover:bg-black '><Icon /></button>
 
                         </div>
                     </form>
 
                 </div>
                 <div className='xl:pt-6 pt-2 ml-14 mr-15 max-w-[700px] xl:mt-3 mt-10  '>
-                    <div className='xl:text-[100px] text-[58px] pop-ebi xl:pl-10 pl-1 xl:-m-10 -m-8 max-w-[310px] xl:max-w-[720px]'>
+                    <div className='xl:text-[100px] text-[56px] pop-ebi xl:pl-10 pl-1 xl:-m-10 -m-8 max-w-[310px] xl:max-w-[720px]'>
                         {showResults && days ? <span className='text-purple'>{diffYears}</span> : <span className='text-purple'>--</span>} years
                     </div>
-                    <div className='xl:text-[100px] text-[58px] pop-ebi xl:pl-10 pl-1  xl:-m-10 -m-8 pt-1 max-w-[320px] xl:max-w-[720px] '>
+                    <div className='xl:text-[100px] text-[56px] pop-ebi xl:pl-10 pl-1  xl:-m-10 -m-8 pt-1 max-w-[320px] xl:max-w-[720px] '>
                         {showResults && days ? <span className='text-purple'>{diffMonths}</span> : <span className='text-purple'>--</span>} months
                     </div>
-                    <div className='xl:text-[100px] text-[58px] pop-ebi xl:pl-10 pl-1 xl:-m-10 -m-8 pt-2 max-w-[310px] xl:max-w-[720px]'>
+                    <div className='xl:text-[100px] text-[56px] pop-ebi xl:pl-10 pl-1 xl:-m-10 -m-8 pt-2 max-w-[310px] xl:max-w-[720px]'>
                         {showResults && days ? <span className='text-purple'>{diffDays}</span> : <span className='text-purple'>--</span>} days
                     </div>
 
